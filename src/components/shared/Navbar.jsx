@@ -63,12 +63,14 @@ const Navbar = () => {
         <div>
           <div>
             <div className="z-50 fixed top-5 md:left-10 left-2">
-              <p className="primary-color font-semibold md:text-2xl  ps-4">
-                Weero
-              </p>
-              <p className="md:text-3xl text-xl primary-color font-semibold -mt-3">
-                DIgItal
-              </p>
+              <Link href={"/"}>
+                <p className="primary-color font-semibold md:text-2xl  ps-4">
+                  Weero
+                </p>
+                <p className="md:text-3xl text-xl primary-color font-semibold -mt-3">
+                  DIgItal
+                </p>
+              </Link>
             </div>
             <div className="z-50 fixed top-8 md:top-10 right-2 md:right-10">
               <button onClick={() => setIsOpen(!isOpen)}>

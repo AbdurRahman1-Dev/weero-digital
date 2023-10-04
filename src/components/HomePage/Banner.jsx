@@ -3,6 +3,7 @@ import hero from "../../../public/hero.webp";
 import { FaArrowRight } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 const Banner = () => {
   // AOS.init();
   return (
@@ -24,9 +25,16 @@ const Banner = () => {
             graphic content, web design and development, logo creation, brochure
           </p>
 
-          <button data-aos="fade-up-right" className="btn-style group ">
-            ABOUT US
-            <FaArrowRight className="group-hover:translate-x-2  duration-200" />
+          <button className="">
+            {" "}
+            <Link
+              className="group btn-style "
+              href={"#about"}
+              data-aos="fade-up-right"
+            >
+              ABOUT US
+              <FaArrowRight className="group-hover:translate-x-2  duration-200" />
+            </Link>
           </button>
         </div>
         <div data-aos="fade-left" className="md:w-1/2 flex justify-end">
