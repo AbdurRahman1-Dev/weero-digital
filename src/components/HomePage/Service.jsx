@@ -57,7 +57,7 @@ const Service = () => {
             <h3 className="text-2xl font-semibold">DEVELOPMENT</h3>
             <p className="text-base secondary-color">
               Ensure a visually cohesive and aesthetically pleasing web presence
-              by prioritizing your customers' needs and preferences.
+              by prioritizing your customer needs and preferences.
             </p>
 
             <ul className="space-y-3 secondary-color">
@@ -84,7 +84,7 @@ const Service = () => {
             <FaChartLine className="text-3xl inline-block"></FaChartLine>
             <h3 className="text-2xl font-semibold">STRATEGIC PLANNING</h3>
             <p className="text-base secondary-color">
-              Center your customers' interests and preferences in your digital
+              Center your customers interests and preferences in your digital
               marketing strategy.
             </p>
             <ul className="space-y-3 secondary-color">

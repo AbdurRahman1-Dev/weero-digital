@@ -53,7 +53,7 @@ const About = () => {
             >
               We believe that collaboration and open communication are key to We
               believe that collaboration and open communication are key to
-              delivering exceptional results. Whether it's developing a visually
+              delivering exceptional results. Whether its developing a visually
               striking website, creating compelling motion graphics, or
               designing a brand identity that resonates with your target
               audience, we are dedicated to exceeding expectations
