@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-color {
+  color: #004b8e;
+}
+.secondary-color {
+  @apply text-gray-600;
+}
+
+.mainContainer {
+  max-width: 80%;
+  @apply mx-auto;
+}
+
+.btn-style {
+  @apply flex items-center gap-2 bg-[#004b8e] text-white px-8 py-3 rounded-sm;
+}
+
+.btn-style:hover {
+  @apply bg-[#00305a] duration-200;
+}
+
+.text-ring {
+  position: relative;
+}
+.text-ring [style*="--index"] {
+  font-size: calc(var(--font-size, 2) * 1rem);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+    rotate(calc(360deg / var(--total) * var(--index)))
+    translateY(calc(var(--radius, 5) * -1ch));
+}
