@@ -9,7 +9,7 @@ import Testimonial from "@/components/HomePage/Testimonial";
 
 const page = () => {
   return (
-    <main className="z-50 mb-[250px]">
+    <main className="z-50 mb-[600px] sm:mb-[250px]">
       <Banner />
       <About />
       <Service />
