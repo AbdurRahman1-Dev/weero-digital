@@ -16,6 +16,7 @@ const Service = () => {
       ],
       animationDur: "700",
       icon: <FaPenNib className="text-3xl inline-block"></FaPenNib>,
+      border: "border-x",
     },
     {
       name: "DEVELOPMENT",
@@ -24,6 +25,7 @@ const Service = () => {
       services: ["Websites", "Mobile Apps", "Desktop Apps"],
       animationDur: "800",
       icon: <FaLaptopCode className="text-3xl inline-block"></FaLaptopCode>,
+      border: "border-y",
     },
     {
       name: "STRATEGIC PLANNING",
@@ -36,6 +38,7 @@ const Service = () => {
       ],
       animationDur: "900",
       icon: <FaChartLine className="text-3xl inline-block"></FaChartLine>,
+      border: "border-x",
     },
   ];
 

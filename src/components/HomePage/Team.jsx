@@ -44,14 +44,14 @@ const Team = () => {
             <FaArrowRight className="group-hover:translate-x-2  duration-200" />
           </button>
         </div>
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 my-5">
           <div
             data-aos="fade-up-left"
-            className="grid grid-cols-1 md:grid-cols-2 gap-5"
+            className="grid grid-cols-2 md:grid-cols-2 gap-5"
           >
             <div
               data-aos="fade-up-left"
-              className="w-[200px] h-[250px] bg-gray-200 relative group overflow-hidden"
+              className="w-[100px] md:w-[200px] h-[150px] md:h-[250px] bg-gray-200 relative group overflow-hidden"
             >
               <Image
                 className="group-hover:scale-105 overflow-hidden duration-500 absolute bottom-0 left-0"
@@ -60,17 +60,21 @@ const Team = () => {
                 alt="team"
               ></Image>
               <div className="absolute w-full opacity-0 group-hover:opacity-100 duration-500 h-full top-0 left-0 bg-[#0000008f] flex items-center justify-center">
-                <div className="text-white translate-y-10 group-hover:translate-y-0 duration-500 text-center space-y-2">
-                  <h4 className="text-xl">MD. Rumanur Rashid</h4>
-                  <p className="text-gray-300">Founder, CEO</p>
-                  <FaLinkedin className="inline-block text-xl mx-1"></FaLinkedin>
-                  <FaGithub className="inline-block text-xl mx-1"></FaGithub>
+                <div className="text-white translate-y-10 group-hover:translate-y-0 duration-500 text-center space-y-1">
+                  <h4 className="md:text-xl text-base p-1">
+                    MD. Rumanur Rashid
+                  </h4>
+                  <p className="md:text-base text-sm text-gray-300">
+                    Founder, CEO
+                  </p>
+                  <FaLinkedin className="inline-block text-base md:text-xl mx-1"></FaLinkedin>
+                  <FaGithub className="inline-block text-base md:text-xl mx-1"></FaGithub>
                 </div>
               </div>
             </div>
             <div
               data-aos="fade-up-left"
-              className="w-[200px] h-[250px] bg-gray-200 relative group overflow-hidden mt-5"
+              className="w-[100px] md:w-[200px] h-[150px] md:h-[250px] bg-gray-200 relative group overflow-hidden mt-4"
             >
               <Image
                 className="group-hover:scale-105 overflow-hidden duration-500 absolute bottom-0 left-0"
@@ -79,17 +83,21 @@ const Team = () => {
                 alt="team"
               ></Image>
               <div className="absolute w-full opacity-0 group-hover:opacity-100 duration-500 h-full top-0 left-0 bg-[#0000008f] flex items-center justify-center">
-                <div className="text-white translate-y-10 group-hover:translate-y-0 duration-500 text-center space-y-2">
-                  <h4 className="text-xl">MD. Rumanur Rashid</h4>
-                  <p className="text-gray-300">Founder, CEO</p>
-                  <FaLinkedin className="inline-block text-xl mx-1"></FaLinkedin>
-                  <FaGithub className="inline-block text-xl mx-1"></FaGithub>
+                <div className="text-white translate-y-10 group-hover:translate-y-0 duration-500 text-center space-y-1">
+                  <h4 className="md:text-xl text-base p-1">
+                    MD. Rumanur Rashid
+                  </h4>
+                  <p className="md:text-base text-sm text-gray-300">
+                    Founder, CEO
+                  </p>
+                  <FaLinkedin className="inline-block text-base md:text-xl mx-1"></FaLinkedin>
+                  <FaGithub className="inline-block text-base md:text-xl mx-1"></FaGithub>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             <div
               data-aos="fade-up-left"
-              className="w-[200px] h-[250px] bg-gray-200 relative group overflow-hidden "
+              className="w-[100px] md:w-[200px] h-[150px] md:h-[250px] bg-gray-200 relative group overflow-hidden"
             >
               <Image
                 className="group-hover:scale-105 overflow-hidden duration-500 absolute bottom-0 left-0"
@@ -98,17 +106,21 @@ const Team = () => {
                 alt="team"
               ></Image>
               <div className="absolute w-full opacity-0 group-hover:opacity-100 duration-500 h-full top-0 left-0 bg-[#0000008f] flex items-center justify-center">
-                <div className="text-white translate-y-10 group-hover:translate-y-0 duration-500 text-center space-y-2">
-                  <h4 className="text-xl">MD. Rumanur Rashid</h4>
-                  <p className="text-gray-300">Founder, CEO</p>
-                  <FaLinkedin className="inline-block text-xl mx-1"></FaLinkedin>
-                  <FaGithub className="inline-block text-xl mx-1"></FaGithub>
+                <div className="text-white translate-y-10 group-hover:translate-y-0 duration-500 text-center space-y-1">
+                  <h4 className="md:text-xl text-base p-1">
+                    MD. Rumanur Rashid
+                  </h4>
+                  <p className="md:text-base text-sm text-gray-300">
+                    Founder, CEO
+                  </p>
+                  <FaLinkedin className="inline-block text-base md:text-xl mx-1"></FaLinkedin>
+                  <FaGithub className="inline-block text-base md:text-xl mx-1"></FaGithub>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             <div
               data-aos="fade-up-left"
-              className="w-[200px] h-[250px] bg-gray-200 relative group overflow-hidden mt-5"
+              className="w-[100px] md:w-[200px] h-[150px] md:h-[250px] bg-gray-200 relative group overflow-hidden mt-4"
             >
               <Image
                 className="group-hover:scale-105 overflow-hidden duration-500 absolute bottom-0 left-0"
@@ -117,11 +129,15 @@ const Team = () => {
                 alt="team"
               ></Image>
               <div className="absolute w-full opacity-0 group-hover:opacity-100 duration-500 h-full top-0 left-0 bg-[#0000008f] flex items-center justify-center">
-                <div className="text-white translate-y-10 group-hover:translate-y-0 duration-500 text-center space-y-2">
-                  <h4 className="text-xl">MD. Rumanur Rashid</h4>
-                  <p className="text-gray-300">Founder, CEO</p>
-                  <FaLinkedin className="inline-block text-xl mx-1"></FaLinkedin>
-                  <FaGithub className="inline-block text-xl mx-1"></FaGithub>
+                <div className="text-white translate-y-10 group-hover:translate-y-0 duration-500 text-center space-y-1">
+                  <h4 className="md:text-xl text-base p-1">
+                    MD. Rumanur Rashid
+                  </h4>
+                  <p className="md:text-base text-sm text-gray-300">
+                    Founder, CEO
+                  </p>
+                  <FaLinkedin className="inline-block text-base md:text-xl mx-1"></FaLinkedin>
+                  <FaGithub className="inline-block text-base md:text-xl mx-1"></FaGithub>
                 </div>
               </div>
             </div>

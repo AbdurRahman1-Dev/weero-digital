@@ -10,7 +10,7 @@ const Whatsapp = () => {
       position="right"
       widgetWidth="300px"
       widgetWidthMobile="260px"
-      autoOpen={true}
+      autoOpen={false}
       autoOpenTimer={5000}
       messageBox={true}
       messageBoxTxt="Hi Team, is there any related service available ?"
