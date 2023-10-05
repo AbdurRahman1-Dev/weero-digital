@@ -15,18 +15,13 @@ import "swiper/css/navigation";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowRight } from "react-icons/fa";
+import TitlebarLeft from "../shared/TitlebarLeft";
 
 const Projects = () => {
   return (
     <section id="projects" className=" py-20 bg-gray-900 overflow-hidden">
       <div className="space-y-10" data-aos="fade-up" data-aos-duration="300">
-        <div data-aos="fade-right" className=" flex gap-2 items-center  ">
-          <div className="w-[20%] h-[1px] bg-gray-500 "></div>
-          <div className="font-bold text-base uppercase secondary-color">
-            OUR Projects | Weero Digital
-          </div>
-        </div>
-
+        <TitlebarLeft title={" OUR Projects"}></TitlebarLeft>
         <div>
           <Swiper
             autoplay={{
@@ -57,7 +52,6 @@ const Projects = () => {
             className="mySwiper h-[350px] text-white"
           >
             <SwiperSlide>
-              {" "}
               <div
                 data-aos="fade-right"
                 data-aos-offset="300"

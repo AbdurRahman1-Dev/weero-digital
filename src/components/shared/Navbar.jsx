@@ -49,10 +49,10 @@ const Navbar = () => {
         </Link>
       </li>
       <li className="group " data-aos="fade-up-right" data-aos-duration="1000">
-        <button>
+        <Link href={"/contact"}>
           Contact
           <FaArrowRight className="group-hover:translate-x-2 opacity-0 group-hover:opacity-100 duration-200 inline-block ms-1" />
-        </button>
+        </Link>
       </li>
     </>
   );

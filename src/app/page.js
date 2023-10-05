@@ -6,11 +6,13 @@ import Projects from "@/components/HomePage/Projects";
 import Service from "@/components/HomePage/Service";
 import Team from "@/components/HomePage/Team";
 import Testimonial from "@/components/HomePage/Testimonial";
+import SocialIcons from "@/components/shared/SocialIcons";
 
 const page = () => {
   return (
-    <main className="z-50 mb-[600px] sm:mb-[250px]">
+    <main>
       <Banner />
+      <SocialIcons></SocialIcons>
       <About />
       <Service />
       <Projects />

@@ -10,20 +10,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { Navigation, Autoplay } from "swiper/modules";
+import TitlebarRight from "../shared/TitlebarRight";
 
 const Testimonial = () => {
   return (
     <section id="client" className=" py-20 z-50 bg-white overflow-hidden">
       <div className="space-y-10" data-aos="fade-up" data-aos-duration="300">
-        <div
-          data-aos="fade-left"
-          className="flex gap-2 items-center justify-end  "
-        >
-          <div className="font-bold text-base uppercase secondary-color">
-            Testimonial | Weero Digital
-          </div>
-          <div className="w-[20%] h-[1px] bg-gray-500 "></div>
-        </div>
+        <TitlebarRight title={"TESTIMONIAL "} />
 
         <div data-aos="zoom-in-up" className="md:w-2/3 mx-auto">
           <Swiper

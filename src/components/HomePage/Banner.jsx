@@ -5,7 +5,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
 const Banner = () => {
-  // AOS.init();
   return (
     <section className=" z-10 bg-white">
       <div className="md:flex justify-between gap-5 items-center flex flex-col-reverse md:flex-row overflow-hidden mainContainer">

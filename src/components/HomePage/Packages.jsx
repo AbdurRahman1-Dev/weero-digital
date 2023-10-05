@@ -17,17 +17,13 @@ import {
   FaLaptopCode,
   FaPenNib,
 } from "react-icons/fa";
+import TitlebarLeft from "../shared/TitlebarLeft";
 
 const Packages = () => {
   return (
     <section id="packages" className=" py-20 bg-gray-100 overflow-hidden">
       <div className="space-y-20" data-aos="fade-up" data-aos-duration="300">
-        <div data-aos="fade-right" className=" flex gap-2 items-center  ">
-          <div className="w-[20%] h-[1px] bg-gray-500 "></div>
-          <div className="font-bold text-base uppercase secondary-color">
-            Packages | Weero Digital
-          </div>
-        </div>
+        <TitlebarLeft title={"Packages"}></TitlebarLeft>
 
         <div className="mainContainer  ">
           <Swiper

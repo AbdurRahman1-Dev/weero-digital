@@ -5,21 +5,14 @@ import m4 from "../../../public/team/Web-Developer.webp";
 import m5 from "../../../public/team/akash.webp";
 import Image from "next/image";
 import { FaArrowRight, FaGithub, FaLinkedin } from "react-icons/fa";
+import TitlebarRight from "../shared/TitlebarRight";
 const Team = () => {
   return (
     <section
       id="team"
       className="space-y-10 py-20 z-20 bg-white overflow-hidden"
     >
-      <div
-        data-aos="fade-left"
-        className="flex gap-2 items-center justify-end  "
-      >
-        <div className="font-bold text-base uppercase secondary-color">
-          Our TEam | Weero Digital
-        </div>
-        <div className="w-[20%] h-[1px] bg-gray-500 "></div>
-      </div>
+      <TitlebarRight title={"Our TEam"}></TitlebarRight>
 
       <div className="mainContainer md:flex justify-between items-center gap-10">
         <div data-aos="fade-up-right" className="md:w-1/2 space-y-5">

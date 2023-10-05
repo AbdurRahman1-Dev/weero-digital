@@ -34,3 +34,10 @@
     rotate(calc(360deg / var(--total) * var(--index)))
     translateY(calc(var(--radius, 5) * -1ch));
 }
+
+/* contact page */
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
