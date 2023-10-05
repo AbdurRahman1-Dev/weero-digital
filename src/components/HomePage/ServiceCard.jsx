@@ -5,7 +5,7 @@ const ServiceCard = ({ service }) => {
     <div
       data-aos="fade-up"
       data-aos-duration={service?.animationDur}
-      className={` space-y-5 p-5 py-12 group ${service?.border}  ${service?.border}-slate-500 hover:shadow-2xl hover:border-y-slate-800 hover:${service?.border}-slate-800 duration-500`}
+      className={` space-y-5 p-5 py-12 group ${service?.border}  ${service?.border}-slate-500 hover:shadow-2xl hover:border-y-slate-800 hover:${service?.border}-slate-800 hover:border-x-slate-800  duration-500`}
     >
       {service?.icon}
       <h3 className="text-2xl font-semibold">{service?.name}</h3>
