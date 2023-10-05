@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/shared/Footer";
 import { AOSInit } from "@/components/hooks/aos";
+import Whatsapp from "@/components/shared/Whatsapp";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
     <html className="scroll-smooth" lang="en">
       <AOSInit />
       <body cla ssName={inter.className}>
+        <Whatsapp />
         <Navbar />
         <div className="z-50 mb-[600px] sm:mb-[250px]">{children}</div>
 
