@@ -7,7 +7,7 @@ const Footer = () => {
       <footer
         data-aos="fade-up"
         data-aos-duration="300"
-        className="bg-white dark:bg-gray-900"
+        className="bg-[#050203]"
       >
         <div
           data-aos="fade-up"

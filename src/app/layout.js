@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
   return (
     <html className="scroll-smooth" lang="en">
       <AOSInit />
-      <body cla ssName={inter.className}>
+      <body className={inter.className}>
         <Whatsapp />
         <Navbar />
-        <div className="z-50 mb-[600px] sm:mb-[250px]">{children}</div>
+        <div className="z-50 mb-[600px] sm:mb-[250px] ">{children}</div>
         <Footer />
       </body>
     </html>

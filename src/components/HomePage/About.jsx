@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 bg-gray-900  text-white overflow-hidden"
+      className="py-20 primary-color-bg text-white overflow-hidden"
     >
       <div className="space-y-10 " data-aos="fade-up" data-aos-duration="200">
         <TitlebarLeft title={" ABOUT US"}></TitlebarLeft>

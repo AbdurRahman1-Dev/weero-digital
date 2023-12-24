@@ -18,15 +18,18 @@ const Team = () => {
         <div data-aos="fade-up-right" className="md:w-1/2 space-y-5">
           <h2
             data-aos="fade-up-right"
-            className="text-3xl md:text-5xl font-bold primary-color uppercase"
+            className="text-2xl md:text-5xl font-bold primary-color"
           >
             Our Talents
           </h2>
-          <p data-aos="fade-up-right" className="font-semibold text-lg">
+          <p data-aos="fade-up-right" className="font-semibold text-xl ">
             At Weero Digital, we are passionate about transforming ideas into
             visually stunning and impactful digital experiences.
           </p>{" "}
-          <p data-aos="fade-up-right" className=" text-base secondary-color">
+          <p
+            data-aos="fade-up-right"
+            className="font-semibold text-base secondary-color"
+          >
             With a focus on creativity, innovation, and flawless execution, we
             help our clients achieve their digital goals in the most effective
             way possible. Our team of talented designers, developers, and

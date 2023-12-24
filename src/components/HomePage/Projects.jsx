@@ -19,7 +19,7 @@ import TitlebarLeft from "../shared/TitlebarLeft";
 
 const Projects = () => {
   return (
-    <section id="projects" className=" py-20 bg-gray-900 overflow-hidden">
+    <section id="projects" className=" py-20 primary-color-bg overflow-hidden">
       <div className="space-y-10" data-aos="fade-up" data-aos-duration="300">
         <TitlebarLeft title={" OUR Projects"}></TitlebarLeft>
         <div>

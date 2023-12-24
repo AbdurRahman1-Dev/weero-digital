@@ -8,7 +8,7 @@
 }
 .primary-color-bg {
   /* background-color: #0f0f0f; */
-  @apply bg-gray-900;
+  @apply bg-[#050203];
 }
 .secondary-color {
   @apply text-gray-600;
@@ -20,11 +20,11 @@
 }
 
 .btn-style {
-  @apply flex items-center gap-2 bg-gray-900 text-white px-8 py-3 rounded-sm hover:shadow-lg duration-200;
+  @apply flex items-center gap-2 bg-[#050203] text-white px-8 py-3 rounded-sm hover:shadow-lg duration-200;
 }
 
 .btn-outline-style {
-  @apply border border-gray-900  text-black hover:text-white px-5 py-2  rounded-sm hover:bg-gray-900 duration-300;
+  @apply border border-[#050203] text-black hover:text-white px-5 py-2  rounded-sm hover:bg-[#050203] duration-300;
 }
 
 .text-ring {
