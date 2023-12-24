@@ -52,7 +52,7 @@ const Packages = () => {
             }}
             navigation={true}
             modules={[Pagination, Autoplay, Navigation]}
-            className="mySwiper "
+            className="mySwiper primary-color"
           >
             <SwiperSlide>
               {" "}
@@ -82,7 +82,7 @@ const Packages = () => {
                     Banner and poster design.
                   </li>
                 </ul>
-                <button className="flex items-center px-5 py-2 rounded-sm gap-2 border border-blue-500 group uppercase hover:bg-[#004b8e] hover:text-white duration-300">
+                <button className="flex items-center  gap-2 btn-outline-style  group uppercase ">
                   order now
                   <FaArrowRight className="group-hover:translate-x-2  duration-200" />
                 </button>
@@ -116,7 +116,7 @@ const Packages = () => {
                     Desktop Apps
                   </li>
                 </ul>
-                <button className="flex items-center px-5 py-2 rounded-sm gap-2 border border-blue-500 group uppercase hover:bg-[#004b8e] hover:text-white duration-300">
+                <button className="flex items-center  gap-2 btn-outline-style  group uppercase ">
                   order now
                   <FaArrowRight className="group-hover:translate-x-2  duration-200" />
                 </button>
@@ -149,7 +149,7 @@ const Packages = () => {
                     Banner and poster design.
                   </li>
                 </ul>
-                <button className="flex items-center px-5 py-2 rounded-sm gap-2 border border-blue-500 group uppercase hover:bg-[#004b8e] hover:text-white duration-300 ">
+                <button className="flex items-center  gap-2 btn-outline-style  group uppercase ">
                   order now
                   <FaArrowRight className="group-hover:translate-x-2  duration-200" />
                 </button>
@@ -178,7 +178,7 @@ const Packages = () => {
                     Banner and poster design.
                   </li>
                 </ul>
-                <button className="flex items-center px-5 py-2 rounded-sm gap-2 border border-blue-500 group uppercase hover:bg-[#004b8e] hover:text-white duration-300">
+                <button className="flex items-center  gap-2 btn-outline-style  group uppercase ">
                   order now
                   <FaArrowRight className="group-hover:translate-x-2  duration-200" />
                 </button>

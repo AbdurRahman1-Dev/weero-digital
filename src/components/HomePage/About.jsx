@@ -15,18 +15,18 @@ const About = () => {
           <div data-aos="flip-up" className="md:w-1/2">
             <Image src={hero} alt="about" />
           </div>
-          <div className="md:w-1/2 space-y-5">
+          <div className="md:w-1/2 space-y-4">
             <h2
               data-aos="fade-up"
               data-aos-duration="500"
-              className="text-3xl font-bold "
+              className="text-4xl font-bold primary-color"
             >
               About us
             </h2>
             <p
               data-aos="fade-up"
               data-aos-duration="600"
-              className="font-semibold text-xl "
+              className="font-semibold text-xl"
             >
               At Weero Digital, we are passionate about transforming ideas into
               visually stunning and impactful digital experiences.

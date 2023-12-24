@@ -18,7 +18,7 @@ const ServiceCard = ({ service }) => {
           </li>
         ))}
       </ul>
-      <FaLongArrowAltRight className="text-4xl opacity-0 group-hover:opacity-100 group-hover:translate-x-2 duration-500 bg-[#004b8e] p-2 rounded-full text-white hover:bg-[#002f58]" />
+      <FaLongArrowAltRight className="text-4xl opacity-0 group-hover:opacity-100 group-hover:translate-x-2 duration-500 primary-color-bg p-2 rounded-full text-white hover:bg-[#3559E0]" />
     </div>
   );
 };

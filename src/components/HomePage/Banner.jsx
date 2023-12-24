@@ -1,12 +1,32 @@
 import Image from "next/image";
 import hero from "../../../public/hero.webp";
 import { FaArrowRight } from "react-icons/fa";
-import AOS from "aos";
+import {
+  FaBehance,
+  FaDribbble,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 import "aos/dist/aos.css";
 import Link from "next/link";
 const Banner = () => {
   return (
-    <section className=" z-10 bg-white">
+    <section className="bg-white -mt-20 ">
+      <div className="w-full h-full relative">
+        {/* social icons */}
+        <div className="absolute top-48 left-10  z-[99] hidden md:block">
+          <div className="flex flex-col gap-5 text-2xl primary-color">
+            <FaFacebook></FaFacebook>
+            <FaLinkedin></FaLinkedin>
+            <FaInstagram></FaInstagram>
+            <FaBehance></FaBehance>
+            <FaTwitter></FaTwitter>
+            <FaDribbble></FaDribbble>
+          </div>
+        </div>
+      </div>
       <div className="md:flex justify-between gap-5 items-center flex flex-col-reverse md:flex-row overflow-hidden mainContainer">
         <div data-aos="fade-right" className=" md:w-1/2 py-5">
           <p className="primary-color font-bold">WE ARE</p>
@@ -24,7 +44,7 @@ const Banner = () => {
             graphic content, web design and development, logo creation, brochure
           </p>
 
-          <button className="">
+          <button>
             {" "}
             <Link
               className="group btn-style "

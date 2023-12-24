@@ -18,7 +18,7 @@ const Team = () => {
         <div data-aos="fade-up-right" className="md:w-1/2 space-y-5">
           <h2
             data-aos="fade-up-right"
-            className="text-2xl md:text-5xl font-bold "
+            className="text-2xl md:text-5xl font-bold primary-color"
           >
             Our Talents
           </h2>

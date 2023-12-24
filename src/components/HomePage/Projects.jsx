@@ -49,7 +49,7 @@ const Projects = () => {
             }}
             navigation={true}
             modules={[Pagination, Autoplay, Navigation]}
-            className="mySwiper h-[350px] text-white"
+            className="mySwiper h-[350px] primary-color"
           >
             <SwiperSlide>
               <div
@@ -64,10 +64,10 @@ const Projects = () => {
                   src={brand}
                   alt="brand"
                 />
-                <p className="text-xl font-semibold secondary-color p-5 text-center group-hover:text-blue-700 duration-200">
+                <p className="text-xl font-semibold secondary-color p-5 text-center group-hover:text-[#3559e0] duration-200">
                   Logo & Brand Identity
                 </p>
-                <span className="text-7xl text-gray-500 absolute left-6 bottom-8 group-hover:text-blue-700 duration-200">
+                <span className="text-7xl text-gray-500 absolute left-6 bottom-8 group-hover:text-[#3559e0] duration-200">
                   01
                 </span>
               </div>
@@ -86,10 +86,10 @@ const Projects = () => {
                   src={content}
                   alt="brand"
                 />
-                <p className="text-xl font-semibold secondary-color p-5 text-center group-hover:text-blue-700 duration-200">
+                <p className="text-xl font-semibold secondary-color p-5 text-center group-hover:text-[#3559e0] duration-200">
                   Staic Content
                 </p>
-                <span className="text-7xl text-gray-500 absolute left-6 bottom-8 group-hover:text-blue-700 duration-200">
+                <span className="text-7xl text-gray-500 absolute left-6 bottom-8 group-hover:text-[#3559e0] duration-200">
                   02
                 </span>
               </div>
@@ -109,10 +109,10 @@ const Projects = () => {
                   src={web}
                   alt="brand"
                 />
-                <p className="text-xl font-semibold secondary-color p-5 text-center group-hover:text-blue-700 duration-200">
+                <p className="text-xl font-semibold secondary-color p-5 text-center group-hover:text-[#3559e0] duration-200">
                   Web Development
                 </p>
-                <span className="text-7xl text-gray-500 absolute left-6 bottom-8 group-hover:text-blue-700 duration-200">
+                <span className="text-7xl text-gray-500 absolute left-6 bottom-8 group-hover:text-[#3559e0] duration-200">
                   03
                 </span>
               </div>
@@ -128,10 +128,10 @@ const Projects = () => {
                   src={model}
                   alt="brand"
                 />
-                <p className="text-xl font-semibold secondary-color p-5 text-center group-hover:text-blue-700 duration-200">
+                <p className="text-xl font-semibold secondary-color p-5 text-center group-hover:text-[#3559e0] duration-200">
                   3d Model
                 </p>
-                <span className="text-7xl text-gray-500 absolute left-6 bottom-8 group-hover:text-blue-700 duration-200">
+                <span className="text-7xl text-gray-500 absolute left-6 bottom-8 group-hover:text-[#3559e0] duration-200">
                   04
                 </span>
               </div>

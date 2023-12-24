@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 .primary-color {
-  color: #004b8e;
+  color: #3559e0;
+}
+.primary-color-bg {
+  background-color: #3559e0;
 }
 .secondary-color {
   @apply text-gray-600;
@@ -15,11 +18,15 @@
 }
 
 .btn-style {
-  @apply flex items-center gap-2 bg-[#004b8e] text-white px-8 py-3 rounded-sm;
+  @apply flex items-center gap-2 bg-[#3559E0] text-white px-8 py-3 rounded-sm;
+}
+
+.btn-outline-style {
+  @apply border border-[#3559E0] text-black hover:text-white px-5 py-2  rounded-sm hover:bg-[#2d4ec5] duration-300;
 }
 
 .btn-style:hover {
-  @apply bg-[#00305a] duration-200;
+  @apply bg-[#2d4ec5] duration-300;
 }
 
 .text-ring {

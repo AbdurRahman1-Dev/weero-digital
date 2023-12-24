@@ -12,7 +12,7 @@ const page = () => {
   return (
     <main>
       <Banner />
-      <SocialIcons></SocialIcons>
+      {/* <SocialIcons></SocialIcons> */}
       <About />
       <Service />
       <Projects />

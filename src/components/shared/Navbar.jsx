@@ -59,28 +59,26 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState();
   return (
     <>
-      <nav className=" z-50">
-        <div>
+      <nav className="z-50">
+        <div className="z-50 flex justify-between items-center container mx-auto py-3 px-2 md:px-0">
           <div>
-            <div className="z-50 fixed top-5 md:left-10 left-2">
-              <Link href={"/"}>
-                <p className="primary-color font-semibold md:text-2xl  ps-4">
-                  Weero
-                </p>
-                <p className="md:text-3xl text-xl primary-color font-semibold -mt-3">
-                  DIgItal
-                </p>
-              </Link>
-            </div>
-            <div className="z-50 fixed top-8 md:top-10 right-2 md:right-10">
-              <button onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? (
-                  <FaTimes className="text-2xl primary-color"></FaTimes>
-                ) : (
-                  <FaBars className="text-2xl primary-color"></FaBars>
-                )}
-              </button>
-            </div>
+            <Link href={"/"}>
+              <p className="primary-color font-semibold md:text-2xl  ps-4">
+                Weero
+              </p>
+              <p className="md:text-3xl text-xl primary-color font-semibold -mt-3">
+                DIgItal
+              </p>
+            </Link>
+          </div>
+          <div className="z-50 ">
+            <button onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? (
+                <FaTimes className="text-2xl primary-color"></FaTimes>
+              ) : (
+                <FaBars className="text-2xl primary-color"></FaBars>
+              )}
+            </button>
           </div>
         </div>
       </nav>
@@ -89,7 +87,7 @@ const Navbar = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="700"
-          className="fixed z-[999] top-0 left-0 bg-[#004b8e] w-[80%] h-screen md:w-1/3 md:rounded-e-full"
+          className="fixed z-[999] top-0 left-0 primary-color-bg w-[80%] h-screen md:w-1/3 md:rounded-e-full"
         >
           <div className=" w-full h-screen flex ps-5 md:ps-10 items-center">
             <div className="space-y-5 ">
