@@ -49,7 +49,7 @@ const Projects = () => {
             }}
             navigation={true}
             modules={[Pagination, Autoplay, Navigation]}
-            className="mySwiper h-[350px] primary-color"
+            className="mySwiper h-[350px] text-white"
           >
             <SwiperSlide>
               <div

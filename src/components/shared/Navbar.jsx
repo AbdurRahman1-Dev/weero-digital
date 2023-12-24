@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaArrowRight, FaBars, FaCross, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   const navLinks = (
     <>
       <li className="group " data-aos="fade-up-right" data-aos-duration="400">
@@ -56,7 +57,7 @@ const Navbar = () => {
       </li>
     </>
   );
-  const [isOpen, setIsOpen] = useState();
+
   return (
     <>
       <nav className="z-50">
@@ -87,16 +88,16 @@ const Navbar = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="700"
-          className="fixed z-[999] top-0 left-0 primary-color-bg w-[80%] h-screen md:w-1/3 md:rounded-e-full"
+          className="fixed z-[999] top-0 left-0 primary-color-bg w-[80%] h-screen md:w-1/3 "
         >
           <div className=" w-full h-screen flex ps-5 md:ps-10 items-center">
             <div className="space-y-5 ">
-              <button
+              {/* <button
                 className="flex w-full justify-end"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 <FaTimes className="ms-10 text-2xl inline-block text-white  hover:text-black hover:scale-[1.01] duration-300 text-end"></FaTimes>
-              </button>
+              </button> */}
               <h2 className="md:text-3xl text-2xl font-bold uppercase text-white ">
                 Weero Digital
               </h2>

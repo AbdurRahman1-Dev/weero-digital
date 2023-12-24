@@ -52,14 +52,11 @@ const Packages = () => {
             }}
             navigation={true}
             modules={[Pagination, Autoplay, Navigation]}
-            className="mySwiper primary-color"
+            className="mySwiper primary-color h-[480px]"
           >
             <SwiperSlide>
               {" "}
-              <div
-                data-aos="fade-up-right"
-                className="bg-white space-y-5 p-5 py-12 shadow-sm hover:shadow-xl duration-300 hover:scale-[1.01]"
-              >
+              <div data-aos="fade-up-right" className="packagesCard">
                 <FaPenNib className="text-3xl inline-block"></FaPenNib>
                 <h3 className="text-2xl font-semibold">
                   CREATIVE GRAPHICS DESIGN
@@ -91,10 +88,7 @@ const Packages = () => {
 
             <SwiperSlide>
               {" "}
-              <div
-                data-aos="fade-up"
-                className="bg-white space-y-5 p-5 py-12 shadow-sm hover:shadow-xl duration-300 hover:scale-[1.01]"
-              >
+              <div data-aos="fade-up" className="packagesCard">
                 <FaLaptopCode className="text-3xl  inline-block"></FaLaptopCode>
                 <h3 className="text-2xl font-semibold">DEVELOPMENT</h3>
                 <p className="text-base secondary-color">
@@ -125,10 +119,7 @@ const Packages = () => {
 
             <SwiperSlide>
               {" "}
-              <div
-                data-aos="fade-up-left"
-                className=" bg-white space-y-5 p-5 py-12 shadow-sm hover:shadow-xl duration-300 hover:scale-[1.01] relative "
-              >
+              <div data-aos="fade-up-left" className=" packagesCard">
                 <FaChartLine className="text-3xl inline-block"></FaChartLine>
                 <h3 className="text-2xl font-semibold">STRATEGIC PLANNING</h3>
                 <p className="text-base secondary-color">
@@ -157,7 +148,7 @@ const Packages = () => {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className=" bg-white space-y-5 p-5 py-12 shadow-sm hover:shadow-xl duration-300 hover:scale-[1.01]">
+              <div className=" packagesCard">
                 <FaChartLine className="text-3xl inline-block"></FaChartLine>
                 <h3 className="text-2xl font-semibold">STRATEGIC PLANNING</h3>
                 <p className="text-base secondary-color">

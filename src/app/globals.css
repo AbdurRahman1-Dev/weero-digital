@@ -46,3 +46,14 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+
+/* packages */
+.packagesCard {
+  @apply bg-white space-y-5 p-5 py-12 shadow-sm hover:shadow-xl duration-300 md:h-[350px] flex flex-col justify-between items-baseline;
+}
+
+/* swiper js */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: black;
+}
