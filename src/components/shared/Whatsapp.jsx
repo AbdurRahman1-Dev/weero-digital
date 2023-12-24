@@ -16,11 +16,11 @@ const Whatsapp = () => {
       messageBoxTxt="Hi Team, is there any related service available ?"
       iconSize="50"
       iconColor="white"
-      iconBgColor="#3559e0"
+      iconBgColor="#111827"
       headerIcon="https://weerodigital.com/assets/Event-Logo-d9ca8408.png"
-      headerIconColor="#3559e0"
+      headerIconColor="#111827"
       headerTxtColor="white"
-      headerBgColor="#3559e0"
+      headerBgColor="#111827"
       headerTitle="Weero Digital"
       headerCaption="Online"
       bodyBgColor="#bbb"
@@ -33,7 +33,7 @@ const Whatsapp = () => {
       }
       footerBgColor="#999"
       placeholder="Type a message.."
-      btnBgColor="#3559e0"
+      btnBgColor="#111827"
       btnTxt="Start Chat"
       btnTxtColor="white"
     />
