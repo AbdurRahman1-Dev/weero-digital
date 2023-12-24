@@ -19,7 +19,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Whatsapp />
         <Navbar />
-        <div className="z-50 mb-[600px] sm:mb-[250px] ">{children}</div>
+        <div className="z-50 mb-[650px] sm:mb-[400px] md:mb-[300px]">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
