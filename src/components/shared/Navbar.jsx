@@ -87,17 +87,17 @@ const Navbar = () => {
       {isOpen && (
         <div
           data-aos="fade-right"
-          data-aos-duration="700"
+          data-aos-duration="500"
           className="fixed z-[999] top-0 left-0 primary-color-bg w-[80%] h-screen md:w-1/3 "
         >
-          <div className=" w-full h-screen flex ps-5 md:ps-10 items-center">
+          <div className=" w-full h-screen flex ps-5 md:ps-10 items-center relative">
             <div className="space-y-5 ">
-              {/* <button
-                className="flex w-full justify-end"
+              <button
+                className="absolute top-5 right-5 "
                 onClick={() => setIsOpen(!isOpen)}
               >
-                <FaTimes className="ms-10 text-2xl inline-block text-white  hover:text-black hover:scale-[1.01] duration-300 text-end"></FaTimes>
-              </button> */}
+                <FaTimes className="ms-10 text-2xl inline-block text-white focus:animate-pulse  duration-300 text-end"></FaTimes>
+              </button>
               <h2 className="md:text-3xl text-2xl font-bold uppercase text-white ">
                 Weero Digital
               </h2>
