@@ -48,14 +48,14 @@ const ContactUs = () => {
           <div className=" md:flex justify-between gap-5 h-full">
             <div className="space-y-4">
               <h5 className="text-xl font-bold">Say Hello.</h5>
-              <p className="secondary-color font-semibold">
+              <p className="secondary-color ">
                 {" "}
                 weerodigital@gmail.com
                 <br></br>
                 letstalk@weerodigital.com
               </p>
 
-              <p className="secondary-color font-semibold">
+              <p className="secondary-color ">
                 +880 1660-136878
                 <br />
                 +880 1606-104403
@@ -64,12 +64,12 @@ const ContactUs = () => {
 
             <div className="space-y-4">
               <h5 className="text-xl font-bold">Address</h5>
-              <address className="secondary-color font-semibold">
+              <address className="secondary-color ">
                 <h5 className="text-xl font-bold pb-1"> Bangladesh Office</h5>
                 Holy Garden (A1) <br /> House: 2/1, Road: 2, Block: C,
                 <br /> Mirpur: 2 Dhaka-1216, Bangladesh
               </address>{" "}
-              <address className="secondary-color font-semibold">
+              <address className="secondary-color ">
                 <h5 className="text-xl font-bold pb-1"> DUBAI OFFICE</h5>
                 Office - M16 <br /> Sky Business Centre
                 <br />
