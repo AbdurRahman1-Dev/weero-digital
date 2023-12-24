@@ -19,14 +19,14 @@ const About = () => {
             <h2
               data-aos="fade-up"
               data-aos-duration="500"
-              className="text-4xl font-bold primary-color"
+              className="text-2xl md:text-5xl font-bold uppercase"
             >
               About us
             </h2>
             <p
               data-aos="fade-up"
               data-aos-duration="600"
-              className="font-semibold text-xl"
+              className="font-semibold text-lg"
             >
               At Weero Digital, we are passionate about transforming ideas into
               visually stunning and impactful digital experiences.
@@ -34,7 +34,7 @@ const About = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="700"
-              className="font-semibold text-base md:text-xl secondary-color"
+              className=" text-base md:text-lg secondary-color"
             >
               With a focus on creativity, innovation, and flawless execution, we
               help our clients achieve their digital goals in the most effective
@@ -45,7 +45,7 @@ const About = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="800"
-              className="font-semibold text-base md:text-xl secondary-color"
+              className=" text-base md:text-lg secondary-color"
             >
               We believe that collaboration and open communication are key to We
               believe that collaboration and open communication are key to

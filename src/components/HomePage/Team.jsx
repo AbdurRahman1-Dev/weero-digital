@@ -26,10 +26,7 @@ const Team = () => {
             At Weero Digital, we are passionate about transforming ideas into
             visually stunning and impactful digital experiences.
           </p>{" "}
-          <p
-            data-aos="fade-up-right"
-            className="font-semibold text-base secondary-color"
-          >
+          <p data-aos="fade-up-right" className=" text-base secondary-color">
             With a focus on creativity, innovation, and flawless execution, we
             help our clients achieve their digital goals in the most effective
             way possible. Our team of talented designers, developers, and
