@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -14,9 +15,11 @@ const Footer = () => {
         >
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0 flex flex-col justify-center">
-              <h1 className="text-2xl uppercase font-bold text-white">
-                Weero DIGItal
-              </h1>
+              <Link href={"/"}>
+                <h1 className="text-2xl uppercase font-bold text-white">
+                  Weero DIGItal
+                </h1>
+              </Link>
               <div className="text-gray-500">
                 <p>weerodigital@gmail.com</p>
                 <p>letstalk@weerodigital.com</p>

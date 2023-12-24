@@ -18,11 +18,11 @@ const Team = () => {
         <div data-aos="fade-up-right" className="md:w-1/2 space-y-5">
           <h2
             data-aos="fade-up-right"
-            className="text-2xl md:text-5xl font-bold primary-color"
+            className="text-3xl md:text-5xl font-bold primary-color uppercase"
           >
             Our Talents
           </h2>
-          <p data-aos="fade-up-right" className="font-semibold text-xl ">
+          <p data-aos="fade-up-right" className="font-semibold text-lg">
             At Weero Digital, we are passionate about transforming ideas into
             visually stunning and impactful digital experiences.
           </p>{" "}
