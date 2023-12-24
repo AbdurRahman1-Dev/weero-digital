@@ -7,43 +7,43 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li className="group " data-aos="fade-up-right" data-aos-duration="400">
-        <Link href={"#home"}>
+        <Link href={"/#home"}>
           Home
           <FaArrowRight className="group-hover:translate-x-2 opacity-0 group-hover:opacity-100 duration-200 inline-block ms-1" />
         </Link>
       </li>
       <li className="group " data-aos="fade-up-right" data-aos-duration="500">
-        <Link href={"#about"}>
+        <Link href={"/#about"}>
           About
           <FaArrowRight className="group-hover:translate-x-2 opacity-0 group-hover:opacity-100  duration-200 inline-block ms-1" />
         </Link>
       </li>
       <li className="group " data-aos="fade-up-right" data-aos-duration="600">
-        <Link href={"#service"}>
+        <Link href={"/#service"}>
           Services
           <FaArrowRight className="group-hover:translate-x-2  opacity-0 group-hover:opacity-100 duration-200 inline-block ms-1" />
         </Link>
       </li>
       <li className="group " data-aos="fade-up-right" data-aos-duration="700">
-        <Link href={"#projects"}>
+        <Link href={"/#projects"}>
           Project
           <FaArrowRight className="group-hover:translate-x-2 opacity-0 group-hover:opacity-100  duration-200 inline-block ms-1" />
         </Link>
       </li>
       <li className="group " data-aos="fade-up-right" data-aos-duration="800">
-        <Link href={"#team"}>
+        <Link href={"/#team"}>
           Team
           <FaArrowRight className="group-hover:translate-x-2 opacity-0 group-hover:opacity-100  duration-200 inline-block ms-1" />
         </Link>
       </li>
       <li className="group " data-aos="fade-up-right" data-aos-duration="900">
-        <Link href={"#packages"}>
+        <Link href={"/#packages"}>
           Packages
           <FaArrowRight className="group-hover:translate-x-2 opacity-0 group-hover:opacity-100 duration-200 inline-block ms-1" />
         </Link>
       </li>
       <li className="group " data-aos="fade-up-right" data-aos-duration="950">
-        <Link href={"#client"}>
+        <Link href={"/#client"}>
           Client
           <FaArrowRight className="group-hover:translate-x-2 opacity-0 group-hover:opacity-100 duration-200 inline-block ms-1" />
         </Link>
