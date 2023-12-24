@@ -30,7 +30,7 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Contact
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <ul className="text-gray-500 dark:text-gray-400 ">
                   <li className="mb-4">
                     <a href="https://flowbite.com/" className="hover:underline">
                       +880 1660-136878
@@ -50,7 +50,7 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Bangladesh Office
                 </h2>
-                <p className="text-gray-500 dark:text-gray-400 font-medium">
+                <p className="text-gray-500 dark:text-gray-400">
                   Holy Garden (A1) <br /> House: 2/1, Road: 2, Block: C, <br />{" "}
                   Mirpur: 2 Dhaka-1216, Bangladesh
                 </p>
@@ -59,7 +59,7 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Dubai Office
                 </h2>
-                <p className="text-gray-500 dark:text-gray-400 font-medium">
+                <p className="text-gray-500 dark:text-gray-400 ">
                   Office - M16 <br /> Sky Business Centre <br /> Nad Al Hamar,
                   Dubai UAE
                 </p>

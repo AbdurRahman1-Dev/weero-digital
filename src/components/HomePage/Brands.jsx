@@ -28,7 +28,7 @@ const Brands = () => {
     },
   ];
   return (
-    <section className="md:space-y-10 py-12 md:py-20 bg-gray-100 overflow-hidden">
+    <section className="md:space-y-10 py-10 bg-white overflow-hidden">
       <TitlebarLeft title={"Brands"}></TitlebarLeft>
       <div data-aos="zoom-out" className="mainContainer">
         <div>
